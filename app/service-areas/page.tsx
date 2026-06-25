@@ -111,7 +111,7 @@ export default function ServiceAreasPage() {
             </p>
 
             <a
-              href="#quote"
+              href="/request-estimate"
               className="mt-8 inline-flex items-center justify-center gap-4 rounded-sm border border-[#f1b65d]/50 bg-[#c64527] px-7 py-4 text-sm font-black uppercase tracking-wider text-white shadow-xl shadow-black/30 transition hover:bg-[#d98a2b]"
             >
               Check Your Area <span className="text-2xl">→</span>

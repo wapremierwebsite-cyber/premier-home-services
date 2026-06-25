@@ -138,7 +138,7 @@ export default function ServicesPage() {
             </p>
 
             <a
-              href="#quote"
+              href="/request-estimate"
               className="mt-8 inline-flex items-center justify-center gap-4 rounded-sm border border-[#f1b65d]/50 bg-[#c64527] px-7 py-4 text-sm font-black uppercase tracking-wider text-white shadow-xl shadow-black/30 transition hover:bg-[#d98a2b]"
             >
               Get a Free Estimate <span className="text-2xl">→</span>
@@ -249,7 +249,7 @@ export default function ServicesPage() {
                   </div>
 
                   <a
-                    href="#quote"
+                    href="/request-estimate"
                     className="mt-8 inline-flex w-fit items-center gap-4 rounded-sm border border-[#f1b65d]/50 bg-[#c64527] px-6 py-4 text-xs font-black uppercase tracking-wider text-white shadow-xl shadow-black/30 transition hover:bg-[#d98a2b]"
                   >
                     Talk About {service.title} <span className="text-xl">→</span>
