@@ -61,9 +61,9 @@ export default function Home() {
             <a className="border-b-2 border-[#d98a2b] pb-2 text-[#d98a2b]" href="#">
               Home
             </a>
-            <a className="transition hover:text-[#d98a2b]" href="#about">
-              About Us
-            </a>
+<a className="transition hover:text-[#d98a2b]" href="/about">
+  About Us
+</a>
             <a className="transition hover:text-[#d98a2b]" href="#services">
               Services
             </a>
