@@ -11,7 +11,7 @@ const services = [
     title: "Decks",
     label: "",
     description:
-      "Custom decks designed for the way you live — built with quality materials and expert craftsmanship.",
+      "Custom decks designed for the way you live. Built with quality materials and expert craftsmanship.",
     image: "/images/deck-service.jpg",
     iconImage: "/images/deck-icon.png",
   },
@@ -29,7 +29,7 @@ const services = [
 const values = [
   {
     title: "Integrity",
-    text: "We do what we say and stand behind our work.",
+    text: "We do what we say we are going to do and stand behind our work.",
     iconImage: "/images/integrity-icon.png",
   },
   {
@@ -136,7 +136,7 @@ export default function Home() {
 
             <p className="max-w-xl text-lg leading-8 text-[#f4ead6]/85">
               Premier Home Services delivers expert craftsmanship in fencing, decks, and
-              siding — built to enhance your home and stand the test of time.
+              siding. Built to enhance your home and stand the test of time.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -232,9 +232,9 @@ export default function Home() {
               Rooted Here. Built on Family.
             </h2>
             <p className="mt-4 max-w-4xl text-base leading-8 text-[#f4ead6]/80">
-              We’re a local, family-owned business proudly serving homeowners across the
+              We are a local, family-owned business proudly serving homeowners across the
               Pacific Northwest. Every project we take on is treated like it’s for our own
-              home — with honesty, hard work, and attention to the details that matter.
+              home. Honesty, hard work, and attention to the details are what matter most.
             </p>
 
 <div className="mt-8 grid gap-5 md:grid-cols-3">

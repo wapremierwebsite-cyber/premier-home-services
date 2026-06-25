@@ -128,21 +128,38 @@ export default function AboutPage() {
 
           <div className="grid gap-6 text-base leading-8 text-[#f4ead6]/78">
             <p>
-              Premier Home Services was built with a simple idea: homeowners deserve a
-              contractor who communicates clearly, takes pride in the work, and treats
-              every project like it matters.
+              Premier Home Services started with Kenny’s work ethic, his family, 
+              and a decision to build something of his own.
             </p>
 
             <p>
-              From fencing and decks to siding and exterior improvements, our work is
-              focused on helping families get more out of their home. Whether the goal is
-              privacy, safety, curb appeal, or a better outdoor space, we bring practical
-              craftsmanship and honest guidance to the process.
+              Before this company ever had a name, Kenny spent nearly 20 years 
+              working blue collar jobs at a local paper mill. He worked his way 
+              up to machine tender, putting in long shifts, late nights, and the 
+              kind of hard work most people never see. It was honest work, but 
+              it came with a cost. Too many nights away from home. Too much time 
+              missed with his daughters.
             </p>
 
             <p>
-              We are proud to serve homeowners throughout the Pacific Northwest with work
-              that is durable, clean, and built for real life.
+              In 2017, Kenny decided it was time for a change. He started a 
+              junk removal company so he could work for himself, provide for 
+              his family, and be more present at home. Over the years, that 
+              same work ethic grew into what is now Premier Home Services.
+            </p>
+
+            <p>
+              Today, the company is built on the same values Kenny carried 
+              with him from the mill: show up, work hard, do the job right, 
+              and treat people with respect. From fencing and decks to siding 
+              and exterior improvements, Premier Home Services helps homeowners 
+              create spaces that are safer, cleaner, more useful, and built 
+              for real life.  
+            </p>
+
+            <p>
+              This is a family-first company with blue collar roots, and every 
+              project is handled with that same pride.  
             </p>
           </div>
         </div>

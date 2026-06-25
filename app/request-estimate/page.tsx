@@ -55,7 +55,7 @@ export default function RequestEstimatePage() {
 
       setStatus("success");
       setMessage(
-        "Thanks! Your estimate request has been sent. Kenny will follow up as soon as possible."
+        "Thanks! Your estimate request has been sent. We will follow up as soon as possible."
       );
       form.reset();
     } catch (error) {
@@ -138,7 +138,7 @@ export default function RequestEstimatePage() {
             </div>
 
             <p className="max-w-xl text-lg leading-8 text-[#f4ead6]/85">
-              Fill out the form and Kenny will follow up about your fence, deck,
+              Fill out the form and we will follow up about your fence, deck,
               siding, or exterior project. Prefer to talk now? Call or text
               253-228-6878.
             </p>
