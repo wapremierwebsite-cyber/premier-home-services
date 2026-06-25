@@ -48,11 +48,11 @@ export default function AboutPage() {
           </nav>
 
           <a
-            href="tel:2535550198"
+            href="tel:2532286878"
             className="hidden rounded-sm bg-black/30 px-5 py-3 text-right text-sm font-black uppercase tracking-wider text-[#f4ead6] ring-1 ring-[#d98a2b]/30 md:block"
           >
             <span className="block text-xs text-[#d98a2b]">Call or Text</span>
-            253-555-0198
+            253-228-6878
           </a>
         </div>
       </header>
