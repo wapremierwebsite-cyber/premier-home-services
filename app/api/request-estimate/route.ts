@@ -1,7 +1,5 @@
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 function clean(value: unknown) {
   if (typeof value !== "string") return "";
   return value.trim();
@@ -9,6 +7,21 @@ function clean(value: unknown) {
 
 export async function POST(request: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+
+    if (!apiKey) {
+      console.error(
+        "Missing RESEND_API_KEY. Add it in Vercel environment variables before using the form live."
+      );
+
+      return Response.json(
+        { error: "Email service is not configured yet." },
+        { status: 500 }
+      );
+    }
+
+    const resend = new Resend(apiKey);
+
     const body = await request.json();
 
     const name = clean(body.name);
@@ -24,13 +37,6 @@ export async function POST(request: Request) {
       return Response.json(
         { error: "Please complete the required fields." },
         { status: 400 }
-      );
-    }
-
-    if (!process.env.RESEND_API_KEY) {
-      return Response.json(
-        { error: "Email service is not configured." },
-        { status: 500 }
       );
     }
 
@@ -86,8 +92,14 @@ ${details}
 
     if (error) {
       console.error("Resend error:", error);
+
       return Response.json(
-        { error: "The message could not be sent. Please call or text instead." },
+        {
+          error:
+            typeof error === "object" && error !== null && "message" in error
+              ? String(error.message)
+              : "The message could not be sent. Please call or text instead.",
+        },
         { status: 500 }
       );
     }
@@ -95,6 +107,7 @@ ${details}
     return Response.json({ success: true });
   } catch (error) {
     console.error("Request estimate error:", error);
+
     return Response.json(
       { error: "Something went wrong. Please call or text instead." },
       { status: 500 }
