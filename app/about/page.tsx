@@ -19,43 +19,43 @@ const values = [
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#111613] text-[#f4ead6]">
-      <header className="absolute left-0 right-0 top-0 z-50">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="block">
-            <img
-              src="/images/logo.png"
-              alt="Premier Home Services logo"
-              className="h-28 w-28 rounded-full object-contain drop-shadow-2xl"
-            />
-          </a>
+<header className="absolute left-0 right-0 top-0 z-50">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+    <a href="/" className="block">
+      <img
+        src="/images/logo.png"
+        alt="Premier Home Services logo"
+        className="h-28 w-28 rounded-full object-contain drop-shadow-2xl"
+      />
+    </a>
 
-          <nav className="hidden items-center gap-8 text-sm font-black uppercase tracking-wider text-[#f4ead6] lg:flex">
-            <a className="transition hover:text-[#d98a2b]" href="/">
-              Home
-            </a>
-            <a className="border-b-2 border-[#d98a2b] pb-2 text-[#d98a2b]" href="/about">
-              About Us
-            </a>
-            <a className="transition hover:text-[#d98a2b]" href="/#services">
-              Services
-            </a>
-            <a className="transition hover:text-[#d98a2b]" href="/project-gallery">
-              Project Gallery
-            </a>
-            <a className="transition hover:text-[#d98a2b]" href="/#areas">
-              Service Areas
-            </a>
-          </nav>
+    <nav className="hidden items-center gap-8 text-sm font-black uppercase tracking-wider text-[#f4ead6] lg:flex">
+      <a className="transition hover:text-[#d98a2b]" href="/">
+        Home
+      </a>
+      <a className="border-b-2 border-[#d98a2b] pb-2 text-[#d98a2b]" href="/about">
+        About Us
+      </a>
+      <a className="transition hover:text-[#d98a2b]" href="/services">
+        Services
+      </a>
+      <a className="transition hover:text-[#d98a2b]" href="/project-gallery">
+        Project Gallery
+      </a>
+      <a className="transition hover:text-[#d98a2b]" href="/service-areas">
+        Service Areas
+      </a>
+    </nav>
 
-          <a
-            href="tel:2532286878"
-            className="hidden rounded-sm bg-black/30 px-5 py-3 text-right text-sm font-black uppercase tracking-wider text-[#f4ead6] ring-1 ring-[#d98a2b]/30 md:block"
-          >
-            <span className="block text-xs text-[#d98a2b]">Call or Text</span>
-            253-228-6878
-          </a>
-        </div>
-      </header>
+    <a
+      href="tel:2532286878"
+      className="hidden rounded-sm bg-black/30 px-5 py-3 text-right text-sm font-black uppercase tracking-wider text-[#f4ead6] ring-1 ring-[#d98a2b]/30 md:block"
+    >
+      <span className="block text-xs text-[#d98a2b]">Call or Text</span>
+      253-228-6878
+    </a>
+  </div>
+</header>
 
       <section className="relative overflow-hidden border-b border-[#d98a2b]/40 bg-[#111613]">
         <div className="absolute inset-x-0 top-0 h-[420px] overflow-hidden">
