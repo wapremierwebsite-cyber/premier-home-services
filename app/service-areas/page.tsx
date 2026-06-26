@@ -297,11 +297,25 @@ export default function ServiceAreasPage() {
             <span>5-Star Rated on Google</span>
           </div>
 
-          <div className="flex gap-3 text-[#d98a2b]">
-            <span>Facebook</span>
-            <span>Instagram</span>
-            <span>Maps</span>
-          </div>
+<div className="flex gap-4 text-[#d98a2b]">
+  <a
+    href="https://www.facebook.com/wapremier"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-[#f4ead6]"
+  >
+    Facebook
+  </a>
+
+  <a
+    href="https://www.instagram.com/premierhome_service/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="transition hover:text-[#f4ead6]"
+  >
+    Instagram
+  </a>
+</div>
         </div>
       </footer>
     </main>
