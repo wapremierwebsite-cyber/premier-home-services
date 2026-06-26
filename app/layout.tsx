@@ -16,11 +16,6 @@ export const metadata: Metadata = {
   title: "Premier Home Services",
   description:
     "Premier Home Services provides fencing, decks, siding, and exterior improvements throughout Pierce County and the South Sound.",
-  icons: {
-    icon: "/images/logo.png",
-    shortcut: "/images/logo.png",
-    apple: "/images/logo.png",
-  },
 };
 
 export default function RootLayout({
